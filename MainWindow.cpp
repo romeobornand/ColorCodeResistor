@@ -5,7 +5,7 @@
  * Description:
  * This is the .cpp file with the implementation of all the functions of the
  * MainWindows class
- *
+ * 
  */
 
 #include "MainWindow.h"
