@@ -5,7 +5,7 @@
  * Description:
  * This is the .h file with the declaration of all the functions of the
  * Resistor class. This class is used to handle all necessary conversions and
- * all the calculations for the resistance
+ * all the calculations for the resistance.
  *
  */
 
