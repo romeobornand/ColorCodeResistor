@@ -9,7 +9,7 @@
 
 #include "MainWindow.h"
 
-#include <QApplication>
+#include <QApplication> //It initializes the application with the user's desktop settings (mouse,...)
 
 int main(int argc, char* argv[])
 {
