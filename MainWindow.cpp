@@ -3,7 +3,7 @@
  * File Name: MainWindow.cpp
  * Author: Michele Mignola, Gabriele Cereghetti, Romeo Bornand
  * Date: 09-12.2021
- * Description:
+ * Description: 
  * This is the .cpp file with the implementation of all the functions of the
  * MainWindows class
  * 
