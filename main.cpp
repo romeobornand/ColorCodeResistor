@@ -1,7 +1,7 @@
 /* Project: ColorResistor
  * File Name: main.cpp
  * Author: Michele Mignola, Gabriele Cereghetti, Romeo Bornand
- * Date: 09-12.2021
+ * Date: 09-12.2021 
  * Description:
  * This is the main file of the programm it is used to lauch the apllication
  *
@@ -9,7 +9,7 @@
 
 #include "MainWindow.h"
 
-#include <QApplication>
+#include <QApplication> //It initializes the application with the user's desktop settings (mouse,...)
 
 int main(int argc, char* argv[])
 {
