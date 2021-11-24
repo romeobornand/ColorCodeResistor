@@ -1,5 +1,5 @@
 /* Project: ColorResistor
- * File Name: MainWindow.h
+ * File Name: MainWindow.h 
  * Author: Michele Mignola, Gabriele Cereghetti, Romeo Bornand
  * Date: 09-12.2021
  * Description:
