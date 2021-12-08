@@ -4,7 +4,7 @@
  * Date: 09-12.2021
  * Description:  
  * This is the .cpp file with the implementation of all the functions of the
- * Resistor class
+ * Resistor class 
  *
  *
  */
@@ -77,7 +77,7 @@ double Resistor::getMultiplier()
   return mult;  // return the value of multiplier
 }
 
-double Resistor::getTolerance()
+double Resistor::getTolerance() //get the tolerance from resistor
 {
   int color = 0;
   if (n == 3)  // resistor has 3 band

@@ -5,7 +5,7 @@
  * Description:
  * This is the .h file with the declaration of all the functions of the
  * MainWindows class. This class is used to handle all inputs and outputs on the
- * interface
+ * interface 
  *
  */
 
