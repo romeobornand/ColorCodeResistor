@@ -1,11 +1,11 @@
 /* Project: ColorResistor
- * File Name: MainWindow.h 
+ * File Name: MainWindow.h
  * Author: Michele Mignola, Gabriele Cereghetti, Romeo Bornand
  * Date: 09-12.2021
  * Description:
  * This is the .h file with the declaration of all the functions of the
  * MainWindows class. This class is used to handle all inputs and outputs on the
- * interface 
+ * interface
  *
  */
 
@@ -29,29 +29,30 @@ class MainWindow : public QMainWindow
  public:
   MainWindow(QWidget* parent = nullptr);
   ~MainWindow();
-  /*Function: refreshColor
-   * parameters:
-   *   in:  -
-   *   out: -
-   * description:
-   * This function is used to refresh the colors of the bands
-   */
+  //Function: refreshColor
+  // parameters:
+  /// \param   in:  -
+  /// \param   out: -
+  // description:
+  /// \brief This function is used to refresh the colors of the bands
   void refreshColor();
-  /*Function: refreshBand
-   * parameters:
-   *   in:  -
-   *   out: -
-   * description:
-   * This function is used to refresh the value of the bands
+  //Function: refreshBand
+  // parameters:
+  /// \param   in:  -
+  /// \param   out: -
+  // description:
+  /// \brief This function is used to refresh the value of the bands
    */
   void refreshBand();
-  /*Function: resultDisplay
-   * parameters:
-   *   in:  -
-   *   out: -
-   * description:
-   * this function is used to convert all numeric value into a string to print
-   */
+  //Function: resultDisplay
+  // parameters:
+  /// \param   in:  val(double): value resistor (ohm)
+  /// \param   in:  exp(double): exponent resistor
+  /// \param   in:  tCoeff(int): temperature coefficient resistor
+  /// \param   in:  tol(double): tolerance resistor (%)
+  /// \param   out: string to print
+  // description:
+  /// \brief this function is used to convert all numeric value into a string to print
   std::string resultDisplay(double val, double exp, int tCoeff, double tol);
 
  private slots:
