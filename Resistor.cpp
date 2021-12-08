@@ -77,7 +77,7 @@ double Resistor::getMultiplier()
   return mult;  // return the value of multiplier
 }
 
-double Resistor::getTolerance()
+double Resistor::getTolerance() //get the tolerance from resistor
 {
   int color = 0;
   if (n == 3)  // resistor has 3 band
